@@ -1,0 +1,41 @@
+Comandos básicos node
+Verifique os pré-requisitos:
+
+Node.js: Certifique-se de que o Node.js (versão LTS) está instalado em seu sistema. Você pode baixá-lo em nodejs.org.
+
+Git: Instale o Git a partir de git-scm.com.
+
+
+
+Instale o Expo CLI: O Expo CLI é uma ferramenta de linha de comando que facilita o desenvolvimento com o Expo. Para instalá-lo globalmente, execute:
+`$npm install -g expo-cli`
+
+
+
+Para criar um novo projeto com o template blank, execute:
+
+`$npx create-expo-app meu-app --template blank`
+
+
+
+Entre na pasta:
+
+`$cd meu-app`
+
+
+
+Intale os pacotes:
+
+`$npm install` ou `$npm i`
+
+
+
+Execute o code:
+`$npm start`
+
+
+
+Caso queira abrir no navegador web tem de instalar esses também (apenas na primeira vez):
+
+`$npx expo install react-dom react-native-web @expo/metro-runtime`
+
